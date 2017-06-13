@@ -41,10 +41,7 @@ terraform {
 	}
 }
 
-#module "example" {
-#	source = "./example-module"
-#	command = "echo goodbye_world"
-#}
+
 
 provider "aws" {
   access_key = "${var.aws_access_key}"
